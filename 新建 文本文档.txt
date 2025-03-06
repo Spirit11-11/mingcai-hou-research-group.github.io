@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教师个人网站</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* 导航栏 */
+        nav {
+            background-color: #0078d7;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* 页面内容 */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #0078d7;
+        }
+
+        /* 首页横幅 */
+        .banner {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .banner h1 {
+            font-size: 48px;
+        }
+
+        /* 研究成果列表 */
+        .publication-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .publication-list li {
+            margin-bottom: 10px;
+        }
+
+        /* 联系方式 */
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <nav>
+        <a href="#home">首页</a>
+        <a href="#about">个人简介</a>
+        <a href="#research">研究成果</a>
+        <a href="#teaching">教学资源</a>
+        <a href="#news">新闻动态</a>
+        <a href="#contact">联系方式</a>
+    </nav>
+
+    <!-- 首页 -->
+    <div class="banner" id="home">
+        <h1>欢迎来到我的个人网站</h1>
+    </div>
+
+    <div class="container">
+        <!-- 个人简介 -->
+        <section id="about">
+            <h2>个人简介</h2>
+            <p>这里是教师的个人简介，包括教育背景、研究方向和学术成就等。</p>
+        </section>
+
+        <!-- 研究成果 -->
+        <section id="research">
+            <h2>研究成果</h2>
+            <ul class="publication-list">
+                <li>论文1: 论文标题1, 期刊名称, 2023</li>
+                <li>论文2: 论文标题2, 期刊名称, 2022</li>
+                <li>科研项目: 项目名称, 资助机构, 2021-2023</li>
+            </ul>
+        </section>
+
+        <!-- 教学资源 -->
+        <section id="teaching">
+            <h2>教学资源</h2>
+            <p>这里是教学资源，包括课程介绍、课件下载等。</p>
+            <ul>
+                <li><a href="#">课程1课件</a></li>
+                <li><a href="#">课程2课件</a></li>
+            </ul>
+        </section>
+
+        <!-- 新闻动态 -->
+        <section id="news">
+            <h2>新闻动态</h2>
+            <p>这里是新闻动态，包括学术活动、会议通知等。</p>
+            <ul>
+                <li>2023年10月: 参加国际学术会议</li>
+                <li>2023年9月: 发表新论文</li>
+            </ul>
+        </section>
+
+        <!-- 联系方式 -->
+        <section id="contact">
+            <h2>联系方式</h2>
+            <div class="contact-info">
+                <p>邮箱: teacher@university.edu</p>
+                <p>电话: +86 123 4567 8901</p>
+                <p>地址: 某某大学，某某学院，123号</p>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
